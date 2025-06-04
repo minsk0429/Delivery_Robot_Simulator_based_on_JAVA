@@ -16,11 +16,11 @@ public abstract class DeliveryRobot {
     protected void checkAutoRecharge() {
         if (batteryLevel < 20) {
             BatteryAlarm();
-            System.out.println(id + ": 배터리 20% 미만 → 자동 충전 시작");
+            System.out.println(id + ": Battery less than 20% -> Automatic charging starts");
             recharge();
         }
     }
     public void Batterycheck() {
-        System.out.println("배터리 상태: "+batteryLevel+"%");
+        System.out.println("Battery status : "+batteryLevel+"%");
     }
 }
