@@ -28,7 +28,7 @@ public class GroundRobot extends DeliveryRobot {
         if (batteryLevel < 15) {
             System.out.println(id + ": Ground robot battery low warning!");
         } else {
-            System.out.println(id + ": Ground robot battery condition is in good condition");
+            System.out.println(id + ": Ground robot battery is in good condition");
         }
     }
 }
