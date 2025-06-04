@@ -65,13 +65,13 @@ Defines shared properties and abstract methods for all robot types.
 
 ## 🔄 Example Output
  === Delivery Similation 1 ===
-Drone-01: Drone battery is in good condition ₩n
-Drone-01: Box delivery completed by drone
-Battery status: 70%
-GroundRobot-01: Ground robot battery is in good condition
-GroundRobot-01: Box delivery completed by ground robot
-Battery status: 70%
-...
+ Drone-01: Drone battery is in good condition
+ Drone-01: Box delivery completed by drone
+ Battery status: 70%
+ GroundRobot-01: Ground robot battery is in good condition
+ GroundRobot-01: Box delivery completed by ground robot
+ Battery status: 70%
+ ...
 
 
 ---
