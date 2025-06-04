@@ -21,7 +21,7 @@ public class GroundRobot extends DeliveryRobot {
 
     public void recharge() {
         batteryLevel = 100;
-        System.out.println(id + ": Ground robot battery charge complete");
+        System.out.println(id + ": Ground robot battery fully charged");
     }
 
     public void BatteryAlarm() {
