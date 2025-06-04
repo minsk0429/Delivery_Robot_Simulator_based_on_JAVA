@@ -10,10 +10,10 @@ public class DroneRobot extends DeliveryRobot {
         BatteryAlarm();
 
         if (batteryLevel < 20) {
-            System.out.println(id + ": 배터리 부족으로 드론 배송 불가");
+            System.out.println(id + ": Drone delivery not possible due to low battery");
         } else {
             batteryLevel -= 30; // 변경: 30% 감소
-            System.out.println(id + ": 드론으로 상자 배달 완료");
+            System.out.println(id + ": Box delivery completed by drone");
             Batterycheck();
             checkAutoRecharge();
         }
@@ -21,14 +21,14 @@ public class DroneRobot extends DeliveryRobot {
 
     public void recharge() {
         batteryLevel = 100;
-        System.out.println(id + ": 드론 배터리 충전 완료");
+        System.out.println(id + ": Drone battery fully charged");
     }
 
     public void BatteryAlarm() {
         if (batteryLevel < 20) {
-            System.out.println(id + ": 드론 배터리 부족 경고!");
+            System.out.println(id + ": Drone battery low warning!");
         } else {
-            System.out.println(id + ": 드론 배터리 상태 양호");
+            System.out.println(id + ": Drone battery is in good condition");
         }
     }
 }
